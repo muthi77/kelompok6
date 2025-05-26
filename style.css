@@ -18,8 +18,8 @@ body {
 }
 .container-navbar {
   background-color: burlywood;
-  width: 50%;
-  height: 10px;
+  width: 25%;
+  height: auto;
   display: flex;
   justify-content: space-between;
   align-items: center;
