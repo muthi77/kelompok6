@@ -19,7 +19,6 @@ body {
 .container-navbar {
   background-color: burlywood;
   width: 0%;
-  height: auto;
   display: flex;
   justify-content: space-between;
   align-items: center;
