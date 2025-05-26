@@ -18,7 +18,7 @@ body {
 }
 .container-navbar {
   background-color: burlywood;
-  width: 100%;
+  width: 50%;
   height: 10px;
   display: flex;
   justify-content: space-between;
