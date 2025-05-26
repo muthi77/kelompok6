@@ -4,11 +4,11 @@ html {
   padding: 0;
 }
 body {
-  background-color: rgb(231, 223, 195);
+  background-color: white;
   background-size: cover;
   background-repeat: no-repeat;
   background-position-x: center;
-  margin: 50;
+  margin: 0;
   padding: 0;
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
@@ -18,15 +18,14 @@ body {
 }
 .container-navbar {
   background-color: burlywood;
-  position: fixed;
-  top: 0;
-  left: 0;
   width: 100%;
-  z-index:1000;
   height: 100px;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
 }
 .container-navbar p {
   font-size: 24px;
@@ -45,7 +44,7 @@ body {
   padding: 10px;
   justify-content: center;
   text-align: center;
-  font-size: smaller;
+  font-size: large;
   font-weight: bold;
 }
 .li-navbar a:link,
@@ -56,17 +55,22 @@ a:active {
   text-decoration: none;
 }
 header {
-  background-image: url("images/polusi\ 2.png");
-  padding: 250px 200px;
+  background-image: url("images/a.jpg");
+  padding: 200px 200px;
+  width: 100%;
+  height: 950px;
+  box-sizing: border-box;
   display: flex;
   flex-direction: column;
   justify-content: center;
   text-align: center;
 }
 header h1 {
-  color: white;
+  color: black;
   text-align: center;
-  font-size: 75px;
+  font-size: 100px;
+  padding-left: 0px;
+  padding-right: 0px;
 }
 /* navbar end */
 /* page 1 */
@@ -83,13 +87,18 @@ header h1 {
   text-align: center;
 }
 .image-identitas {
-  display: flex;
+  display: block;
   justify-content: center;
+  justify-items: center;
+  padding-left: 250px;
+  padding-right: 250px;
 }
 .image-identitas img {
-  width: 300px;
+  width: 250px;
   height: auto;
   margin: 5px;
+  margin-bottom: 50px;
+  margin-top: 20px;
 }
 /* page 1 end */
 /* page 2 */
@@ -99,16 +108,25 @@ header h1 {
   margin-top: 10px;
   margin-left: 50px;
   margin-right: 50px;
+  margin-bottom: 50px;
   text-align: justify;
 }
 .analisis {
-  margin: 50px;
+  margin-left: 200px;
+  margin-right: 200px;
+  margin-bottom: 25px;
+  margin-top: 0px;
+  border-style: ridge;
+  border-width: 5px;
+  padding: 15px;
+  padding-bottom: 100px;
+  background-color: whitesmoke;
 }
 .analisis h1 {
   color: rgb(165, 108, 42);
   text-align: center;
-  line-height: 1.5;
-  margin-bottom: 3px;
+  margin-top: 90px;
+  margin-bottom: 25px;
 }
 .analisis h2 {
   color: rgb(165, 108, 42);
@@ -139,6 +157,36 @@ header h1 {
 }
 /* page 2 end */
 /* page 3 */
+.justifikasi {
+  margin-left: 200px;
+  margin-right: 200px;
+  margin-bottom: 25px;
+  margin-top: 0px;
+  border-style: ridge;
+  border-width: 5px;
+  padding: 15px;
+  padding-bottom: 100px;
+  background-color: whitesmoke;
+}
+.justifikasi h1 {
+  color: rgb(165, 108, 42);
+  text-align: center;
+  margin-top: 0px;
+  margin-bottom: 25px;
+}
+.justifikasi h2 {
+  color: rgb(165, 108, 42);
+  text-align: justify;
+  font-size: xlarge;
+  line-height: 2;
+  margin-bottom: 0px;
+}
+.justifikasi p {
+  color: black;
+  text-align: justify;
+  font-size: large;
+  line-height: 1.5;
+}
 .tengah {
   line-height: 1.5;
   font-size: large;
@@ -168,7 +216,6 @@ header h1 {
 }
 .toggle-box li {
   cursor: pointer;
-  position: relative;
   margin: 10px 0;
   padding: 10px;
   background-color: #fff8e1;
@@ -177,10 +224,10 @@ header h1 {
   font-size: large;
   line-height: 1.5;
   list-style: none;
-  border: 1px solid #d1b45f;
+  border: 1px solid burlywood;
 }
 .toggle-box li:hover {
-  background-color: #ffeaa7;
+  background-color: #f9ecc0;
 }
 .detail {
   display: none;
@@ -190,8 +237,8 @@ header h1 {
 .detail.show {
   display: block;
   margin-top: 8px;
-  font-size: 14px;
-  color: #555;
+  font-size: medium;
+  color: #060606;
 }
 /* page 3 end */
 /* page 4 */
@@ -205,7 +252,7 @@ header h1 {
   vertical-align: top;
   text-align: center;
   vertical-align: middle;
-  background-color: #d1b45f;
+  background-color: burlywood;
 }
 .rancangan-pertemuan td {
   border: 1px solid #000;
