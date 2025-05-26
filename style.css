@@ -18,7 +18,11 @@ body {
 }
 .container-navbar {
   background-color: burlywood;
+  position: fixed;
+  top: 0;
+  left: 0;
   width: 100%;
+  z-index:1000;
   height: 100px;
   display: flex;
   justify-content: space-between;
